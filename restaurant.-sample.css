@@ -1,0 +1,28 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;  /* Center the gallery horizontally */
+  }
+  
+  .gallery img {
+    width: 200px;  /* Adjust image width as needed */
+    margin: 0 auto;
+    margin-left: 13px;
+  }
+
+  .image-container {
+    border: 8px solid #ddd; /* Solid border with light gray color */
+    border-radius: 10px;  /* Rounded corners for the image */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+    margin: 20px;
+    text-align: center;
+  }
+
+  .head {
+    display: inline-block; /* Ensures the element behaves like a box model */
+    width: fit-content; /* Adjust width if needed */
+    padding: 10px;  /* Padding for separation */
+    border-radius: 50%; /* Creates a circular border */
+    border-color: black;
+    background-color: #f0f0f0; /* Optional background color */
+  }
